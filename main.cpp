@@ -48,7 +48,7 @@ class SportShoesStore {
 public:
     Sneakers assortment[5]{};
 
-    void priceSorting() {
+    void PriceSorting() {
         double temporaryVariableForSorting;
         cout << " " << endl;
         cout << "SORTING BY PRICE" << endl;cout << " " << endl;
@@ -68,7 +68,7 @@ public:
         }
     }
 
-    void numberOfSalesSorting() {
+    void NumberOfSalesSorting() {
         double temporaryVariableForSorting;
         cout << " " << endl;cout << " " << endl;cout << " " << endl;
         cout << "TOP 3 BY NUMBER OF SALES" << endl;
@@ -102,8 +102,8 @@ int main() {
     a.assortment[3] = Sneakers("Feele", 84, "White", "Plastic", 5999.9, 301, 150);
     a.assortment[4] = Sneakers("Noike", 10, "Pink", "Metal", 3999.9, 199, 10);
 
-    a.priceSorting();
-    a.numberOfSalesSorting();
+    a.PriceSorting();
+    a.NumberOfSalesSorting();
 
     return 0;
 }
